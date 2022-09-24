@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 const app = http.createServer((req, res) => {
     res.statusCode = 200; // HTTP_OK
     res.setHeader("Content-Type", "text/html");
-    res.end("<h1>Chào mừng đến với bình nguyên vô tận !</h1>");   
+    res.end("<h1>Chào mừng đến với bình nguyên vô tận ! !</h1>");   
 });
 //bước 4: chạy web bằng listen port.
 app.listen(port);
